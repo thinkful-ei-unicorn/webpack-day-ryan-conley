@@ -4,7 +4,8 @@
   "description": "Please reference the startup instructions within your curriculum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server", 
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-unicorn/webpack-day-ryan-conley/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-unicorn/webpack-day-ryan-conley#readme"
+  "homepage": "https://github.com/thinkful-ei-unicorn/webpack-day-ryan-conley#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
